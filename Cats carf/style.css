@@ -1,0 +1,822 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maxlogo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  fill: black;
+  display: none;
+}
+.maxlogo p {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.minlogo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+.minlogo .squirrel-logo {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  fill: black;
+}
+.big {
+  background-image: url(/img/big\ cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 61px;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  width: 45%;
+  height: 105px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 45%;
+  height: auto;
+}
+
+.squirrel-logo {
+  color: white;
+}
+.squirrel-logo {
+  fill: white;
+}
+header .child1 {
+  border-bottom: solid white 1px;
+  width: 25%;
+  text-align: center;
+  padding-left: 15px;
+}
+header {
+  width: 100%;
+}
+header .child1 p {
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.container2 {
+  width: 15%;
+  height: 10px;
+  margin: auto;
+  text-align: center;
+}
+.container2 p {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 12px;
+}
+.container3 {
+  width: 100%;
+  height: 130px;
+  margin: auto;
+  text-align: center;
+}
+.container3 p {
+  display: inline-block;
+  padding-top: 0%;
+  /* padding-bottom: 1.85625%; */
+  color: aliceblue;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: 1px solid white;
+  font-size: 4.5em;
+  margin-top: 20px;
+  font-family: playfair display sc;
+}
+.container4 {
+  display: flex;
+  text-align: center;
+
+  font-size: 100px;
+  font-style: normal;
+  font-family: "Sacramento", sans-serif;
+  font-weight: 300;
+  color: aliceblue;
+  justify-content: center;
+  text-decoration: none;
+}
+.tom1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.container4 p {
+  margin-bottom: 400px;
+}
+.big:hover .container4 {
+  color: yellow;
+}
+.container5 {
+  /* display: none; */
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 65%;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+}
+.container5 h1 {
+  font-style: italic;
+  font-size: 72px;
+  /* font-size: 4rem; */
+  margin-bottom: 0.4125rem;
+  display: inline-block;
+  padding-top: 0%;
+  padding-bottom: 1.85625%;
+  margin-top: 0%;
+  margin-bottom: 3.7125%;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.05em;
+  color: #1d1a19;
+  border-bottom: 1px solid #49423b;
+  font-family: "Playfair Display SC", serif;
+}
+.container5 p {
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  color: #1d1a19;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429rem;
+}
+main {
+  width: 100%;
+}
+.container6 {
+  width: 90%;
+
+  margin: auto;
+  display: flex;
+}
+.container6 .child2 {
+  width: 33.3%;
+  /* height: 100%; */
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.container6 .child2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container6 .child2 .text2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  border-radius: 200px;
+  background-color: rgba(0, 0, 0, 0.267);
+  display: none;
+}
+.container6 .child2:hover .text2 {
+  display: block;
+}
+.container6 .child2 .text2 p {
+  margin-top: 110px;
+  font-size: 30px;
+}
+.container6 .child2 .text2 h3 {
+  border-bottom: white solid 1px;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container6 .child2 .text2 h6 {
+  font-size: 35px;
+  font-family: "Sacramento", sans-serif;
+}
+.container7 {
+  width: 90%;
+  /* height: 400px; */
+  display: block;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 65%;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  margin-top: 150px;
+}
+.container7 h1 {
+  font-style: italic;
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125rem;
+  display: inline-block;
+  padding-top: 0%;
+  padding-bottom: 1.85625%;
+  margin-top: 0%;
+  margin-bottom: 3.7125%;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.05em;
+  color: #1d1a19;
+  border-bottom: 1px solid #49423b;
+  font-family: "Playfair Display SC", serif;
+}
+.container7 p {
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  color: #1d1a19;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429rem;
+}
+.container8 {
+  width: 90%;
+  /* height: 300px; */
+  margin: auto;
+  display: flex;
+}
+.container8 .child3 {
+  width: 33.3%;
+  height: 100%;
+  position: relative;
+}
+.container8 .child3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container8 .child3 .text3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  border-radius: 200px;
+  background-color: rgba(0, 0, 0, 0.349);
+  display: none;
+}
+.container8 .child3:hover .text3 {
+  display: block;
+}
+.container8 .child3 .text3 p {
+  margin-top: 110px;
+  font-size: 30px;
+  color: white;
+}
+.container8 .child3 .text3 h3 {
+  border-bottom: white solid 1px;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container8 .child3 .text3 h6 {
+  font-size: 35px;
+  font-family: "Sacramento", sans-serif;
+}
+.container9 {
+  /* height: 500px; */
+  display: block;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 65%;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  margin-top: 100px;
+}
+.container9 h1 {
+  font-style: italic;
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125rem;
+  display: inline-block;
+  padding-top: 0%;
+  padding-bottom: 1.85625%;
+  margin-top: 0%;
+  margin-bottom: 3.7125%;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.05em;
+  color: #1d1a19;
+  border-bottom: 1px solid #49423b;
+  font-family: "Playfair Display SC", serif;
+}
+.container9 p {
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  color: #1d1a19;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429rem;
+}
+.container10 {
+  width: 90%;
+  /* height: 300px; */
+  margin: auto;
+  display: flex;
+}
+.container10 .child4 {
+  width: 33.3%;
+  height: 100%;
+  position: relative;
+  
+}
+.container10 .child4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container10 .child4 .text4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  border-radius: 200px;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: none;
+}
+.container10 .child4:hover .text4 {
+  display: block;
+}
+.container10 .child4 .text4 p {
+  margin-top: 110px;
+  font-size: 30px;
+  color: white;
+}
+.container10 .child4 .text4 h3 {
+  border-bottom: white solid 1px;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container10 .child4 .text4 h6 {
+  font-size: 35px;
+  font-family: "Sacramento", sans-serif;
+}
+.container11 {
+  display: block;
+  margin: auto;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 65%;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  margin-top: 150px;
+}
+.container11 h1 {
+  font-style: italic;
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125rem;
+  display: inline-block;
+  padding-top: 0%;
+  padding-bottom: 1.85625%;
+  margin-top: 0%;
+  margin-bottom: 3.7125%;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.05em;
+  color: #1d1a19;
+  border-bottom: 1px solid #49423b;
+  font-family: "Playfair Display SC", serif;
+}
+.container11 p {
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  color: #1d1a19;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429rem;
+}
+.container12 {
+  width: 90%;
+  /* height: 300px; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container12 .child5 {
+  width: 33.3%;
+  height: 70%;
+  position: relative;
+  margin: auto;
+}
+.container12 .child5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container12 .child5 .text5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  border-radius: 200px;
+  background-color: rgba(0, 0, 0, 0.486);
+  display: none;
+}
+.container12 .child5:hover .text5 {
+  display: block;
+}
+.container12 .child5 .text5 p {
+  margin-top: 110px;
+  font-size: 30px;
+  color: white;
+}
+.container12 .child5 .text5 h3 {
+  border-bottom: white solid 1px;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container12 .child5 .text5 h6 {
+  font-size: 35px;
+  font-family: "Sacramento", sans-serif;
+}
+.bigzurag {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/cat12.jpg);
+  object-fit: cover;
+}
+.bigzurag2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container13 {
+  width: 60%;
+
+  margin: auto;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+
+  justify-content: center;
+}
+.contianer13 .fashion1 {
+  margin: auto;
+}
+.container13 .fashion2 h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.container13 h1 {
+  font-style: italic;
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125rem;
+  display: inline-block;
+  padding-top: 0%;
+  padding-bottom: 1.85625%;
+  margin-top: 0%;
+  margin-bottom: 3.7125%;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.05em;
+  color: #1d1a19;
+  border-bottom: 1px solid #49423b;
+  font-family: "Playfair Display SC", serif;
+}
+.container13 p {
+  font-family: "Playfair Display SC", serif;
+  font-style: normal;
+  color: #1d1a19;
+
+  margin-bottom: 0%;
+  font-size: 21px;
+
+  margin-bottom: 1.41429rem;
+}
+.contianer13 h3 {
+  border-bottom: solid black 1px;
+}
+.big1 {
+  background-color: #f4efde;
+}
+.container14 {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* font-size: 15px; */
+}
+/* .container14 .child6 img{
+  width: 100%;
+  height: 100%;
+} */
+.text6 u {
+  font-size: 35px;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+u {
+  font-size: 45px;
+}
+.text6 p {
+  margin-top: 15px;
+  font-family: "Alice", serif;
+}
+u {
+  font-size: 50px;
+}
+
+.container17 {
+  width: 100%;
+  background-image: url(/img/cat13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.container18 {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo1 {
+  width: 130px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.squirrel-svg {
+  display: flex;
+  justify-content: center;
+}
+.bigbro {
+  width: 100%;
+  height: 300px;
+  background-color: #dba539;
+}
+.cats {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+}
+.icons {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.801);
+  margin-top: 80px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.icons i {
+  font-size: 24px;
+}
+.togsgol {
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+  font-family: playfair display sc;
+}
+.uusgal {
+  height: 40px;
+  color: white;
+  background-color: #805f1e;
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3 h5 {
+  font-size: 35px;
+  margin-top: 215px;
+  color: white;
+  font-family: playfair display sc;
+}
+@media (max-width: 640px) {
+  .big header {
+    display: none;
+  }
+  .container6 {
+    flex-direction: column;
+  }
+  .container8 {
+    flex-direction: column;
+  }
+  .container10 {
+    flex-direction: column;
+  }
+
+  .big .child1 {
+    font-size: 15px;
+  }
+  .big .squirrel-logo {
+    width: 100%;
+  }
+  .container7 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .big .container2 {
+    width: 40%;
+  }
+  .big .container2 p {
+    font-size: 15px;
+  }
+
+  .big .container3 {
+    width: 100%;
+  }
+  .big .container3 p {
+    font-size: 26px;
+  }
+  .big .container4 {
+    width: 100%;
+  }
+  .big .container4 p {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* .tom1 .container5{ 
+       }  */
+  .maxlogo {
+    display: block;
+  }
+  .tom1 .container5 p {
+    font-size: 21px;
+  }
+  .tom1 .container5 h1 {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 640px) {
+  .container6 .child2 {
+    width: 100%;
+   
+    margin-top: 50px;
+  }
+  .container6 .child2 .text2 {
+    position: static;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: black;
+    background-color: white;
+  }
+  .container6 .child2 .text2 p {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  .container6 .child2 .text2 h3{
+font-size: 24px;
+  }
+  .container6 .child2 .text2 h6{
+font-size: 22px;
+  }
+  .container7 p {
+    font-size: 21px;
+  }
+  .container7 h1 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .container8 .child3 {
+    width: 100%;
+   
+  }
+  .container8 .child3 .text3 {
+    position: static;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: black;
+    background-color: white;
+  }
+  .container8 .child3 .text3 p{
+    margin-top: 0;
+    font-size: 22px;
+  }
+  .container8 .child3 .text3 h3{
+    font-size: 22px;
+  }
+  .container9 p {
+    font-size: 21px;
+  }
+  .container9 h1 {
+    width: 100%;
+    font-size: 16px;
+  }
+  .container10 .child4 {
+    width: 100%;
+    
+    margin-top: 20px;
+  }
+  .container10 .child4 .text4 {
+    position: static;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: black;
+    background-color: white;
+  }
+  .container10 .child4 .text4 p{
+    margin-top: 0; 
+    font-size: 22px;
+    color: black;
+  } 
+  .container10 .child4 .text4  h3{
+font-size: 24px;
+
+  }  
+.container10 .child4 .text4 h6{
+  font-size: 28px;
+  color: black;
+}
+
+  .container10 .child4 img{
+    width: 100%;
+    height: 70%;
+  } 
+.contianer10 .child .text4{
+  display: none;
+}
+  .container11 p {
+    font-size: 21px;
+  }
+  .container11 h1 {
+    width: 100%;
+    font-size: 16px;
+  } 
+
+  .container12 {
+    width: 100%;
+    margin: auto;
+   
+    flex-direction: column;
+  }
+  .container12 .chid5{
+    width: 100%;
+    height: 100%;
+  }
+  .container12 .child5 img{
+    width: 100%;
+    height: 100%;
+  }
+  .container12 .child5 .text5 {
+    position: static;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: black;
+    background-color: white;
+  }
+  .container12 .chid5 .text5 p{
+    display: block;
+    margin-top: 0;
+  }
+  .big1 {
+    flex-direction: column;
+  }
+  .container14 {
+    flex-direction: column;
+  }
+  .child6 img {
+    width: 20%;
+    height: 20%;
+  } 
+  .bigbro{
+    width: 100%; 
+  height: 350px;
+  }
+}

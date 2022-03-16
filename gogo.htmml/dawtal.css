@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+.big{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/geriin\ muur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.containar{
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width:100% ;
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.header .menu{
+    width: 100%;
+    height: 60px;
+   
+    color: white;
+}
+
+.header .menu .containar ul{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.header .menu .containar ul li{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+border-bottom: 1px solid white;
+font-size: 20px;
+}
+.header .menu ul li a:hover{
+    color: yellow;
+}
+.header .menu .containar .logo{
+    width: 130px;
+    height: 80px;
+    justify-content: center;
+    margin-top: 30px;
+    display: block;
+}
+.squirrel-svg{
+    margin: auto;
+   display: block;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    width: 130px;
+    height: 80px;
+}
+.header .menu .containar .containar1 p{
+    display: block;
+}
+.containar1{
+    width: 15%;
+    height: 15px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.containar1 p{
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+}
+.banner{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+   margin-top: 170px;
+    font-size: 45px;
+    align-items: center;
+    font-family: playfair display sc;
+}
+.banner h1{
+  border-bottom: 1.8px solid white;
+  color: white;
+
+}
+.benner{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    align-items: center;
+    font-family: sacramento;
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+}
+.benner p:hover{
+    color: rgb(199, 134, 15);
+}
+.main{
+    width: 100%;
+     background-color: white;
+     margin-top: 160px;
+     
+}
+.containar2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.main .containar2 .top{
+    width: 60%;
+    height: 200px;
+    color: #1b1a19;
+    display: block;
+}
+.main .containar2 .top .deed{
+   margin-top: 10px;
+    font-size: 65%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    
+}
+.main .containar2 .top .dund{
+text-align: center;
+font-family:playfair display sc ;
+font-size: 35px;
+letter-spacing: 0.4em;
+}
+.main .containar2 .top .dund h1{
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+.main .containar2 .top .dood{
+    margin-top: 10px;
+    font-family: alice;
+    font-size: 1.166667rem;
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.containar3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.zvvn{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* object-fit: cover; */
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+/* .zvvn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.mouse{
+    color: white;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+    background-color:rgba(0, 0, 0, 0.534);
+   height: 50%;
+   width: 60%;
+   margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.zvvn:hover .mouse{
+    display: block;
+}
+.mouse h4{
+    margin-top: 60px;
+   font-size: 17px;
+   
+}
+.mouse h3{
+    padding-top: 3px;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    font-family: playfair display sc;
+}
+.mouse p{
+    padding-top: 35px;
+    top: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sacramento;
+}
+.mouse p:hover{
+    color: yellow;
+}
+.mouse2{
+    color: white;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+    background-color:rgba(0, 0, 0, 0.534);
+   height: 50%;
+   width: 60%;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.mouse2 h5{
+   margin-top: 60px;
+   font-size: 20px;
+}
+.mouse2 h2{
+    padding-top: 3px;
+    border-bottom: 1px solid white;
+    font-size: 35px;
+    font-family: playfair display sc;
+   
+    padding-bottom: 7px;
+}
+.mouse2 h6{
+    padding-top: 35px;
+    top: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sacramento;
+}
+.gol{
+   width: 50%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    margin: auto;
+}
+/* .gol img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.gol:hover .mouse2{
+    display: block;
+}
+.mouse2 h6:hover{
+    color: yellow;
+}
+.mouse3{
+    color: white;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+    background-color:rgba(0, 0, 0, 0.534);
+   height: 50%;
+   width: 100%;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    margin-top: 100px;
+}
+.baruun{
+    width: 50%;
+    /* height: 100%; */
+    position: relative;
+    object-fit: cover;
+    margin: auto;
+    
+}
+/* .baruun img{
+    width: 100%;
+    height: 100%;
+} */
+.mouse3 h5{
+    margin-top: 80px;
+    font-size: 20px;
+}
+.baruun:hover .mouse3{
+    display: block;
+}
+.mouse3 h6{
+    padding-top: 3px;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    font-family: playfair display sc;
+    padding-bottom: 7px;
+}
+.mouse3 p{
+    padding-top: 35px;
+    top: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sacramento;
+}
+.mouse3 p:hover{
+    color: yellow;
+}
+.main1{
+    width: 100%;
+    background-color: white;
+    margin-top: 160px;
+    background-size: cover;
+}
+.containar2 .top{
+    width: 60%;
+    height: 200px;
+    color: #1b1a19;
+    display: block;
+}
+.containar2 .top .deed{
+   margin-top: 10px;
+    font-size: 65%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    
+}
+.containar2 .top .dund{
+text-align: center;
+font-family:playfair display sc ;
+font-size: 25px;
+letter-spacing: 0.4em;
+}
+.containar2 .top .dund h1{
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+.containar2 .top .dood{
+    margin-top: 25px;
+    font-family: alice;
+    font-size: 1.166667rem;
+    text-align: center;
+}
+.dund h6{
+    font-size: 45px;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+}
+.deed1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45px;
+}
+.bigest{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/img/nehmel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dund h3{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 65px;
+    margin-top: 20px;
+
+}
+u{
+    font-size: 35px;
+    font-family: playfair display sc;
+}
+.containar4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* gap: 90px; */
+    height: 100vh;
+}
+.bigger{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/img/togsgol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.togsgol{
+    height: 400px;
+    width: 100%;
+    background-color: orange;
+}
+.cats{
+    text-align: center;
+    color: white;
+    fill: white;
+}
+
+.icons{
+    text-align: center;
+   
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.icons i{
+font-size: 24px;
+
+
+}
+.svvl{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+.svvl h3{
+    
+}
+.uusgalt{
+    height: 40px;
+    width: 100%;
+    background-color: #805f1e;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uusgalt h3{
+   color: white;
+    text-align: center;
+   font-size: 13px;
+   font-family: playfair display sc;
+}
+
+.main12{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    
+}
+.main12 .containar2 .top .deed p{
+    margin-top: 30px;
+}
+.biggeer{
+   
+    width: 100%;
+    height: 150px;
+}
+.hover p{
+font-size: 14px;
+}
+.hover{
+    width: 50%;
+    margin: auto;
+}
+.hover h3{
+    border-bottom: 1px solid blue;
+    font-size: 25px;
+}
+.big1{
+    width: 130px;
+    height: 80px;
+    display: none;
+ 
+}
+@media screen and (max-width:950px) and (min-width:200px){
+   .big .header .menu .containar ul{
+       flex-direction: column;
+       display: none;
+   }
+   .main .containar2 .top{
+       flex-direction: column;
+   }
+   .main .containar2 .top .dund{
+       font-size: 18px;
+   }
+   .containar3 .bottom{
+       flex-direction: column;
+   }
+   .main1 .containar2 .top {
+       font-size: 15px;
+       flex-direction: column;
+   }
+   .main1 .containar2 .top .dund{
+       font-size: 14px;
+   }
+   .main1 .containar2 .top .dund h6{
+       font-size: 18px;
+   }
+   .main1 .containar2 .top .dood{
+       font-size: 15px;
+   }
+   .main1 .containar3{
+       flex-direction: column;
+       width: 100%;
+   }
+   .main12 .containar4 {
+       flex-direction: column;
+       width: 100%;
+       height: 100%;
+   }
+   .main12 .containar4 img{
+       width: 20%;
+       height: 20%;
+   }
+   .mouse{
+       position: static;
+       color: black;
+       display: block;
+       background-color: white;
+       font-size: 30px;
+   }
+   .mouse2{
+       position: static;
+       color: black;
+       display: block;
+       background-color: white;
+       font-size: 30px;
+   }
+   .mouse3{
+       position: static;
+        background-color: white;
+        color: black;
+        display: block;
+   }
+   .main12 .containar2 .top .dund h3{
+       font-size: 18px;
+   }
+   .big1{
+     display: block;
+      
+   }
+   .big{
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+       
+   }
+   .containar1 p {
+      display: none;
+   }
+   .banner h1{
+       font-size: 30px;
+       color: rgb(70, 55, 55);
+       border-bottom: 1px solid rgb(20, 124, 124);
+        margin-top: 170px;
+   }
+   .benner{
+       margin-top: 0;
+   }
+   .benner p{
+       font-size: 20px;
+       margin-top: 190px;
+       color: #1b1a19;
+   }
+   .main12 .containar4 img{
+     margin-top: 110px;
+                                                                                                                                                                                                                                                                                                                                                                        
+   }
+
+
+}
+/* @media screen and (min-width:1000px){
+    .big .big11{
+        display: none;
+    }
+    .big1{
+        display: none;
+    }
+} */
