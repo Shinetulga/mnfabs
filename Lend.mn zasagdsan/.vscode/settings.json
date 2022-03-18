@@ -1,0 +1,5 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "liveServer.settings.port": 5502
+}

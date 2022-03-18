@@ -1,0 +1,718 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+
+header .Container1 {
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .Container1 .logo {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+header .Container1 .menu {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .Container1 .menu .item {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .Container1 .menu .item p {
+  font-size: small;
+  color: grey;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 20px;
+  font-size: 10px;
+}
+
+header .Container1 .menu-bar {
+  width: 20px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app {
+  width: 50%;
+  height: 90px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.app .applestore {
+  width: 40%;
+  height: 50%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+}
+
+.app .applestore p {
+  padding-top: 15px;
+  color: white;
+}
+
+.app .applestore i {
+  margin-right: 5px;
+  color: white;
+}
+
+.app .playstore {
+  width: 40%;
+  height: 50%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+}
+
+.app .playstore p {
+  padding-top: 15px;
+  color: white;
+}
+
+.app .playstore i {
+  margin-right: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.app .applestore:hover {
+  background-color: grey;
+}
+
+.app .playstore:hover {
+  background-color: grey;
+}
+
+.Container2 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.Container2 .Niigem p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.zuraas {
+  width: 16%;
+  height: 8px;
+  background-color: orangered;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.Container3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container3 .guys {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (260px)[4];
+      grid-template-columns: repeat(4, 260px);
+  -ms-grid-rows: 400px;
+      grid-template-rows: 400px;
+  gap: 20px;
+}
+
+.Container3 .guys .child .photo {
+  width: 100%;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container3 .guys .child .photo img {
+  width: 65%;
+  height: 65%;
+}
+
+.texts {
+  width: 50%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.Container4 {
+  width: 85%;
+  height: 280px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.Container4 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+
+.Container5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container5 .guys1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (260px)[4];
+      grid-template-columns: repeat(4, 260px);
+  -ms-grid-rows: 400px;
+      grid-template-rows: 400px;
+  gap: 20px;
+}
+
+.Container5 .guys1 .child1 .photo {
+  width: 100%;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container5 .guys1 .child1 .photo img {
+  width: 65%;
+  height: 65%;
+}
+
+.Container5 .guys1 .child1 h1 {
+  font-size: 15px;
+}
+
+.Container5 .guys1 .child1 p {
+  font-size: 14px;
+  color: grey;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.container6 {
+  width: 25%;
+  height: 50%;
+  margin: auto;
+  border: solid orangered 2px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: orangered;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.container6:hover {
+  background-color: orangered;
+}
+
+.container6:hover {
+  color: white;
+}
+
+.container7 {
+  width: 100%;
+  height: 80px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e6e0e0;
+}
+
+.container7 .child2 {
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container7 .child2 .photo {
+  width: 15%;
+  height: 100%;
+}
+
+.container7 .child2 .photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.Container8 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.Container8 .Niigem p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.texts1 {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dutsancontainer {
+  width: 80%;
+  margin: auto;
+}
+
+.dutsancontainer .dutuugguitseeh {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (30%)[3];
+      grid-template-columns: repeat(3, 30%);
+  -ms-grid-rows: 360px;
+      grid-template-rows: 360px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dutsancontainer .dutuugguitseeh .dutuu {
+  border: 1px grey solid;
+}
+
+.dutsancontainer .dutuugguitseeh .dutuu .zurag {
+  width: 100%;
+  height: 50%;
+  background-color: yellow;
+}
+
+.dutsancontainer .dutuugguitseeh .dutuu img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.dutsancontainer .tsaash p {
+  color: orangered;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.dutsancontainer .tsaash:hover p {
+  color: #b9aaaa;
+}
+
+.container9 {
+  width: 100%;
+  height: 300px;
+  margin-top: 70px;
+  background-image: url(/img/ipoheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.container9 .awards {
+  width: 80%;
+  margin: auto;
+}
+
+.container9 .awards .awardtom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (15%)[6];
+      grid-template-columns: repeat(6, 15%);
+  -ms-grid-rows: 100px;
+      grid-template-rows: 100px;
+  gap: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container9 .awards .awardtom .award img {
+  width: 100%;
+  height: 100%;
+}
+
+.container10 {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container10 .bid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+  gap: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container10 .bid .textuud .email {
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container10 .bid .textuud .telephone {
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container10 .bid .textuud .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container10 .bid .textuud .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container10 .bid .textuud .clock i {
+  margin-top: 5px;
+}
+
+.menus {
+  width: 20%;
+  height: 50px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menus .item {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menus .item i {
+  font-size: larger;
+}
+
+.container11 {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  header .Container1 .menu {
+    display: none;
+  }
+  .app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin-top: 5px;
+    gap: 5px;
+  }
+  .Container2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Container3 .guys {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 260px;
+        grid-template-columns: 260px;
+    -ms-grid-rows: 400px 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .texts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Container4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Container5 .guys1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 260px;
+        grid-template-columns: 260px;
+    -ms-grid-rows: 400px 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container6 {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  header .Container1 .menu-bar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 760px) {
+  .container7 {
+    width: 100%;
+    height: 200px;
+  }
+  .container7 .child2 {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container7 .child2 .photo {
+    height: 30%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container7 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .dutsancontainer .dutuugguitseeh {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 400px 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px 400px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container9 {
+    height: 400px;
+  }
+  .container9 .awards .awardtom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (23%)[3];
+        grid-template-columns: repeat(3, 23%);
+    -ms-grid-rows: (100px)[2];
+        grid-template-rows: repeat(2, 100px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container10 .bid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container10 .bid .arilgah {
+    display: none;
+  }
+  .container10 .bid .uldegug {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

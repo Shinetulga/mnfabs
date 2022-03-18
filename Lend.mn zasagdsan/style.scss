@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  .Container1 {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    .logo {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      position: sticky;
+    }
+    .menu {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      .item {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: small;
+          color: grey;
+          font-weight: bold;
+          padding-top: 12px;
+          padding-left: 20px;
+          font-size: 10px;
+        }
+      }
+    }
+    .menu-bar {
+      width: 20px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.app {
+  width: 50%;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  .applestore {
+    width: 40%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    p {
+      padding-top: 15px;
+      color: white;
+    }
+    i {
+      margin-right: 5px;
+      color: white;
+    }
+  }
+  .playstore {
+    width: 40%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    p {
+      padding-top: 15px;
+      color: white;
+    }
+    i {
+      margin-right: 5px;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+.app {
+  .applestore:hover {
+    background-color: grey;
+  }
+  .playstore:hover {
+    background-color: grey;
+  }
+}
+.Container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .Niigem p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+.zuraas {
+  width: 16%;
+  height: 8px;
+  background-color: orangered;
+  margin: auto;
+  border-radius: 10px;
+}
+.Container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .guys {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: 400px;
+    gap: 20px;
+    .child {
+      .photo {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 65%;
+          height: 65%;
+        }
+      }
+    }
+  }
+}
+.texts {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.Container4 {
+  width: 85%;
+  height: 280px;
+  margin: auto;
+  border-radius: 15px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+}
+
+.Container5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .guys1 {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: 400px;
+    gap: 20px;
+    .child1 {
+      .photo {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 65%;
+          height: 65%;
+        }
+      }
+      h1 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 14px;
+        color: grey;
+      }
+    }
+  }
+}
+.button {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.container6 {
+  width: 25%;
+  height: 50%;
+  margin: auto;
+  border: solid orangered 2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  font-size: large;
+  margin-top: 20px;
+}
+.container6:hover {
+  background-color: orangered;
+}
+.container6:hover {
+  color: white;
+}
+.container7 {
+  width: 100%;
+  height: 80px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 224, 224);
+  .child2 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .photo {
+      width: 15%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.Container8 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .Niigem p {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+.texts1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dutsancontainer {
+  width: 80%;
+  margin: auto;
+
+  .dutuugguitseeh {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 360px;
+    justify-content: space-between;
+
+    .dutuu {
+      border: 1px grey solid;
+
+      .zurag {
+        width: 100%;
+        height: 50%;
+        background-color: yellow;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .tsaash {
+    p {
+      color: orangered;
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+  .tsaash:hover {
+    p {
+      color: rgb(185, 170, 170);
+    }
+  }
+}
+.container9 {
+  width: 100%;
+  height: 300px;
+  margin-top: 70px;
+  background-image: url(/img/ipoheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  .awards {
+    width: 80%;
+    margin: auto;
+    .awardtom {
+      display: grid;
+      grid-template-columns: repeat(6, 15%);
+      grid-template-rows: 100px;
+      gap: 5px;
+      justify-content: space-between;
+      .award {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.container10 {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  .bid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 300px;
+    gap: 5px;
+    justify-content: space-between;
+    .textuud {
+      .email {
+        height: 20px;
+        display: flex;
+      }
+      .telephone {
+        height: 20px;
+        display: flex;
+      }
+      .location {
+        display: flex;
+      }
+      .clock {
+        display: flex;
+        i {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+.menus {
+  width: 20%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  .item {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      font-size: larger;
+    }
+  }
+}
+.container11 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  header {
+    .Container1 {
+      .menu {
+        display: none;
+      }
+    }
+  }
+  .app {
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5px;
+    gap: 5px;
+  }
+  .Container2 {
+    flex-direction: column;
+  }
+  .Container3 {
+    .guys {
+      display: grid;
+      grid-template-columns: 260px;
+      grid-template-rows: 400px 400px 400px 400px;
+      flex-direction: column;
+    }
+  }
+  .texts {
+    flex-direction: column;
+  }
+  .Container4 {
+    flex-direction: column;
+  }
+  .Container5 {
+    .guys1 {
+      display: grid;
+      grid-template-columns: 260px;
+      grid-template-rows: 400px 400px 400px 400px;
+      flex-direction: column;
+    }
+  }
+  .container6 {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  header {
+    .Container1 {
+      .menu-bar {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 760px) {
+  .container7 {
+    width: 100%;
+    height: 200px;
+    .child2 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .photo {
+        height: 30%;
+        width: 30%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .container7 {
+    display: none;
+  }
+}
+@media screen and (max-width: 775px) {
+  .dutsancontainer {
+    .dutuugguitseeh {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 400px 400px 400px 400px;
+      gap: 15px;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container9 {
+    height: 400px;
+    .awards {
+      .awardtom {
+        display: grid;
+        grid-template-columns: repeat(3, 23%);
+        grid-template-rows: repeat(2, 100px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container10 {
+    .bid {
+      display: flex;
+      justify-content: center;
+      .arilgah {
+        display: none;
+      }
+      .uldegug {
+        width: 400px;
+      }
+    }
+  }
+}
